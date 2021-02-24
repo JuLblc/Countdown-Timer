@@ -5,7 +5,7 @@ var myVar = window.setInterval(getCountDown, 1000, launchingDate);
 function getCountDown(date){
 
   let currentDate = new Date();
-  
+
   //Différence de temps en milliseconde
   let DifferenceInTime  = date.getTime() - currentDate.getTime();
   //Conversion du temps en milliseconde en jour(s)
@@ -35,4 +35,3 @@ function checkNumberDigits(myNumber)
 {
      return (myNumber < 10 ? "0" : "") + myNumber;  
 }
-
