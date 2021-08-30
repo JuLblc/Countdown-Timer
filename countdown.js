@@ -1,4 +1,4 @@
-let launchingDate = new Date(2021, 3, 8, 18);
+let launchingDate = new Date(2021, 10, 31, 12);
 
 var myVar = window.setInterval(getCountDown, 1000, launchingDate);
 
