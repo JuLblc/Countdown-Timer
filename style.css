@@ -90,6 +90,11 @@ h1{
   margin:auto;
   width: 10%;
 }
-.div-img > img{
+.div-img img{
   margin: 15px;
+}
+
+.div-img img:hover{  
+	cursor: pointer;
+	filter: invert(66%) sepia(24%) saturate(6397%) hue-rotate(306deg) brightness(99%) contrast(91%);
 }
